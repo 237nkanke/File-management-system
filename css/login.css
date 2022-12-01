@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* top 2 */
+.toptop{
+    justify-content: space-between;
+}
+.toptop a{
+    text-decoration: none;
+}
+.logo{
+    cursor: pointer;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 6px;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+.me2{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.logo::first-letter{
+    font-family: cursive;
+}
+.top222{
+    text-align: center;
+}
+.top222 h2{
+    margin-bottom: 10px;
+}
+form{
+    margin-top: 50px;
+}
+form input{
+    border: 2px solid lightgray;
+    height: 40px;
+    width: 350px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+form label{
+    margin-right: 20px;
+    font-family: cursive;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+form p{
+    color: rgb(165, 160, 160);
+    font-size: 15px;
+}
+#business{
+    display: none;
+}
